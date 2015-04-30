@@ -1,5 +1,5 @@
 # Security_Ninjas_AppSec_Training
-OpenDNS Security Ninjas AppSec Training
+OWASP Security Ninjas AppSec Training
 
 Slide deck link-> https://docs.google.com/a/owasp.org/presentation/d/18Kwe3z6ggJebQ2ehlapzC6zgAZ72LjNjoWv8UFk5SCA/edit?usp=sharing
 
