@@ -96,7 +96,6 @@
 					
 					<footer>
 						<ul id="copyright">
-							<li>&copy; OpenDNS. All rights reserved.</li><li><a href="http://engineering.opendns.com/security/" target="_blank">OpenDNS Security</a></li>
 						</ul>
 					</footer>
 				</article>
