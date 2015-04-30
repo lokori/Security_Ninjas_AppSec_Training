@@ -1,7 +1,7 @@
 # Security_Ninjas_AppSec_Training
 OpenDNS Security Ninjas AppSec Training
 
-Slide deck link-> http://www.slideshare.net/OpenDNS/security-ninjas-opensource
+Slide deck link-> https://docs.google.com/a/owasp.org/presentation/d/18Kwe3z6ggJebQ2ehlapzC6zgAZ72LjNjoWv8UFk5SCA/edit?usp=sharing
 
 This hands-on training lab consists of 10 fun real world like hacking exercises, corresponding to each of the OWASP Top 10 vulnerabilities. Hints and solutions are provided along the way. Although the backend for this is written in PHP, vulnerabilities would remain the same across all web based languages, so the training would still be relevant even if you don’t actively code in PHP. 
 
@@ -74,7 +74,7 @@ The following steps are optional but recommended:
 ---
 Suggestions or Comments? 
 
-We would love to get some feedback! You can reach me directly at shruti@opendns.com. Happy hacking!
+We would love to get some feedback! You can reach me directly at shruti.gupta@owasp.org Happy hacking!
 
 
 ---
