@@ -93,11 +93,7 @@
 				
 						<p>This page doesn't have any CSRF protection. e.g., unique random token, etc.</p>
 					</header>
-					
-					<footer>
-						<ul id="copyright">
-						</ul>
-					</footer>
+				
 				</article>
 			</div>
 
