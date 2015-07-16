@@ -71,7 +71,7 @@
 			</div>
 
 		
-		<!-- Contact -->
+		<!-- 
 			<div class="wrapper style4">
 				<article id="contact" class="container small">
 					
@@ -81,6 +81,7 @@
 					</footer>
 				</article>
 			</div>
+		-->
 
 	</body>
 </html>
