@@ -149,10 +149,7 @@
 							</div>
 						</div>
 					</div>
-					<footer>
-						<ul id="copyright">
-						</ul>
-					</footer>
+			
 				</article>
 			</div>
 
