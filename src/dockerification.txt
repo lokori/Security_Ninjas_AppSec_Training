@@ -1,0 +1,6 @@
+docker sudo docker exec -i -t 665b4a1e17b6 /bin/bash #by ID
+docker run -d -p 80:8765 lokori/disobey
+docker build -t lokori/disobey .
+docker tag lokori/disobey:latest 162217765252.dkr.ecr.eu-west-1.amazonaws.com/pwnfest:latest 
+docker ps
+docker push 162217765252.dkr.ecr.eu-west-1.amazonaws.com/pwnfest:latest

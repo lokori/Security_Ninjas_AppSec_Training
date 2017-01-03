@@ -24,9 +24,9 @@
     <!-- Nav -->
     <nav id="nav">
       <ul class="container">
-	<img src="images/flamingo_pieni.png" width="8.5%" height="8.5%" align="left"/>
+	<img src="images/flamingo_pieni.png" width="11.5%" height="11.5%" align="left"/>
 	<img src="images/ninja.png" alt="" width="12.5%" height="12.5%" align="right" />
-	<li><a href="a1.html">A1</a></li>
+	<li><a href="a4.html">A4</a></li>
 	<!-- <li><img src="images/opendns_logo.png" alt="" width="65.5%" height="65.5%" align="right" /> -->
       </ul>
     </nav>
@@ -34,7 +34,7 @@
     <div class="wrapper style2">
       <article id="work">
 	<header>
-	  <h5>A1 : Injection</h5>
+	  <h5>A4 : Injection</h5>
 	</header>
 	<div class="container">
 	  <?php
@@ -42,8 +42,6 @@
 	     $domain = $_GET['site'];
 	     
 	     echo "<b>Pwnage results for <font color='green'>$domain</font> <br><br><br></b>";
-	     //	$cmd = "ping -c 2 -q ".$domain;
-	     //$cmd = "whois ".$domain;
 	     $cmd = "grep ".$domain." haveibeenpwned.dat";
 	     $result = system($cmd);
 	     // with grep this seems to double the result? why? echo $result;
