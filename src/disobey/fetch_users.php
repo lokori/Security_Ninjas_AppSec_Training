@@ -49,7 +49,7 @@
 							<?php
 
 							//read file
-							$user_file = file_get_contents("comments.txt");fclose($user_file);
+							$user_file = file_get_contents("comments.txt");
 							$rows = explode("@#", $user_file);
 
 							$num_rows = count($rows);
@@ -74,14 +74,12 @@
 							$html .= '<tr>'.'<td>'."test".'</td>'.'<td>'."test".'</td>'.'</tr>';
 							for($r = 1; $r <= $num_rows; $r++)
 							{
-
-
 								$html .= '<tr>';
 
 								//parse row and print column
-									$name=preg_split("/#@/", $rows[$r]);
-									$html .= '<td>' .$name[0]. '</td>';
-									$html .= '<td>' .$name[1]. '</td>';
+								$name=preg_split("/#@/", $rows[$r]);
+								$html .= '<td>' .$name[0]. '</td>';
+								$html .= '<td>' .$name[1]. '</td>';
 
 								$html .= '</tr>';
 							}

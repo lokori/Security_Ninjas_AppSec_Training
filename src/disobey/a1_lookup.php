@@ -60,7 +60,7 @@
   <article id="contact" class="container small">
     <header>
       
-      <p>Injektio - uhka vai mahdollisuus?</p>
+      <p>Injection - threat or opportunity?</p>
     </header>
     <div>
       <div class="row">

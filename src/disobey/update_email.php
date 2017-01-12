@@ -64,7 +64,7 @@
 	     
 	     elseif(($sess == '39d5e11038e580555a9e40382f43083970a7c13bcedfd314fb551f923fb2572f') && ($user == 'user1'))
 	     {
-	     $myfile = fopen("/var/www/html/troll/user1.txt", "w") or die("Unable to open file!");
+	     $myfile = fopen("user1.txt", "w") or die("Unable to open file!");
 	     fwrite($myfile, $new_email);
 	     echo "Email changed successfully!";
 	     
@@ -90,8 +90,7 @@
 			<div class="wrapper style4">
 				<article id="contact" class="container small">
 					<header>
-				
-						<p>This page doesn't have any CSRF protection. e.g., unique random token, etc.</p>
+					  <p>This page doesn't follow <a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet">OWASP CRSF best practices/a> properly. Or at all.</p>
 					</header>
 				
 				</article>

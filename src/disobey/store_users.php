@@ -47,11 +47,10 @@
 					</header>
 					<div class="container">
 							<?php
-$myfile = fopen("comments.txt", "w") or die("Unable to open file!");
-fwrite($myfile, " ");
-							fwrite($myfile, $_POST["name"]."#@".$_POST["uname"]."@#");
-
-	fclose($myfile);
+							   $myfile = fopen("comments.txt", "w") or die("Unable to open file!");
+							   fwrite($myfile, " ");
+							   fwrite($myfile, $_POST["name"]."#@".$_POST["uname"]."@#");
+							   fclose($myfile);
 					
 							echo "Account creation successful ! <br><a href='fetch_users.php'>View Users</a><br><br><br><br><br>";
 
