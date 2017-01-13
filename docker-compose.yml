@@ -5,19 +5,7 @@ services:
     ports:
       - "8080:80"
     links:
-      - app1
-      - app2
-      - app3
-      - app4
-  app1:
-    image: "disobey:latest"
-    restart: always
-  app2:
-    image: "disobey:latest"
-    restart: always
-  app3:
-    image: "disobey:latest"
-    restart: always
-  app4:
+      - app
+  app:
     image: "disobey:latest"
     restart: always

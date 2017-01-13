@@ -89,3 +89,7 @@ CSS credits: html5up.net
     docker-compose up -d
 
 Now you have Nginx runnin on port 80, diffrent app servers are running in diffrent context paths: /app[1-4]/
+
+You can scale more app nodes with command:
+
+    docker-compose scale app=10 # This will add 9 more app nodes
