@@ -90,7 +90,7 @@
 			<div class="wrapper style4">
 				<article id="contact" class="container small">
 					<header>
-					  <p>This page doesn't follow <a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet">OWASP CRSF best practices/a> properly. Or at all.</p>
+					  <p>This page doesn't follow <a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet">OWASP CRSF best practices</a> properly. Or at all.</p>
 					</header>
 				
 				</article>
