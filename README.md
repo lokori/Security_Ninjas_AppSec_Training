@@ -79,3 +79,17 @@ We would love to get some feedback! You can reach me directly at shruti.gupta@ow
 
 ---
 CSS credits: html5up.net
+
+
+# Disobey install
+
+1. Run build.sh script
+1. run docker compose:
+
+    docker-compose up -d
+
+Now you have Nginx runnin on port 80, diffrent app servers are running in diffrent context paths: /app[1-4]/
+
+You can scale more app nodes with command:
+
+    docker-compose scale app=10 # This will add 9 more app nodes
