@@ -1,0 +1,11 @@
+version: '2'
+services:
+  nginx:
+    image: "disobey-proxy:latest"
+    ports:
+      - "8080:80"
+    links:
+      - app
+  app:
+    image: "disobey:latest"
+    restart: always
